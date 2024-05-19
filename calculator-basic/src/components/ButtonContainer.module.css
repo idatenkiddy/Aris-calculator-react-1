@@ -1,0 +1,25 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 2px solid rgb(135, 155, 117);
+  border-radius: 10px;
+  background: linear-gradient(145deg, #acacac, #919191);
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.6) ;
+}
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  border-radius: 20%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 197, 186);
+  background: linear-gradient(145deg, #a8b1a7, #c8d3c7);
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}

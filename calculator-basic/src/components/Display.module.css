@@ -1,0 +1,53 @@
+.display {
+  margin: 10px;
+  margin-top: 25px;
+  width: 225px;
+  font-size: 25px;
+  border-radius: 20%;
+  background-color: rgb(116, 131, 115);
+  background: linear-gradient(145deg, #687668, #7c8c7b);
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  border: 3px solid rgb(71, 71, 71);
+  
+}
+.displayinput1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.6);
+  background: transparent;
+  border: none;
+  width: 97%;
+  margin: 0;
+  font-size: large;
+  text-overflow: clip;
+}
+.displayinput2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.6);
+  background: transparent;
+  border: none;
+  width: 97%;
+  margin: 0;
+  font-size: larger;
+  text-overflow: clip;
+}
+
+.displayinput1:focus {
+  outline: none;
+}
+.displayinput2:focus {
+  outline: none;
+}
+
+.displayinput1::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.displayinput2::placeholder {
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.calculator {
+  border: 1px solid rgb(131, 131, 131);
+  width: 250px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: rgb(151, 151, 151);
+  background: linear-gradient(145deg, #8c8c8c, #767676);
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.8);
+}
+body {
+  background-color: antiquewhite;
+}
